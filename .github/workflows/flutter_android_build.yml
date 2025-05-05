@@ -16,6 +16,11 @@ jobs:
         with:
           flutter-version: '3.19.0'
 
+      - name: Hard clean
+        run: |
+          rm -rf .dart_tool .android .gradle android/.gradle android/build android/app/build
+
+
       - name: Install dependencies
         run: flutter pub get
 
