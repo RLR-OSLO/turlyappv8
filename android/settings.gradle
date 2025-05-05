@@ -1,0 +1,2 @@
+rootProject.name = 'turly_app_v7'
+include ':app'
